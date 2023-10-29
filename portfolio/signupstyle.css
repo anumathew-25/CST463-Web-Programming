@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: linear-gradient(to right bottom, rgba(219, 189, 150, 0.9), rgba(255, 144, 0, 0.9));
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: rgba(255,255,255,0.8);
+  }
+  
+  h2 {
+    text-align: center;
+    color:rgba(255, 144, 0, 0.9);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 15px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    padding: 15px 70px;
+    background-color:rgba(255, 144, 0, 0.9);
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.5s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+   input[type="text"]:focus-visible,
+  input[type="email"]:focus-visible,
+  input[type="password"]:focus-visible{
+    outline-color: rgba(255, 144, 0, 0.9);
+  }
+  
+  
+  input[type="submit"]:hover {
+    background-color: rgba(255, 144, 0, 0.9);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    text-align: center;
+  }
+ 
+header {
+    background-color: rgba(255, 144, 0, 0.9);
+    color: #494444;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    color: #fff; 
+    font-size: 36px;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(122, 117, 117, 0.1);
+    overflow: hidden; /* Add overflow property for proper clearing */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: rgba(255, 144, 0, 0.9);
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  background-color: rgba(255, 144, 0, 0.9);
+  color: #fff;
+  padding: 10px 0;
+  
+}
+.footer__social-icon{
+  color: #fff;
+}
